@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	24.08.1
+%define		kdeappsver	24.08.2
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kde-dev-utils
 Summary:	Kde dev utils
 Name:		ka6-%{kaname}
-Version:	24.08.1
+Version:	24.08.2
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	e4941f56fd548a0541e439c6b796712a
+# Source0-md5:	4ad287caf657cd2f412cbef371786cb7
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	cmake >= 3.20
